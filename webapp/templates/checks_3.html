@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>List of Symbols</title>
+        <link rel="stylesheet" href="static/stocks.css" />
+    </head>
+    <body>
+        <form action="/processcheck3" method="POST">
+            {{ data | safe }}
+            <input type="submit" value="Select">
+            <input type="reset" value="Clear">
+        </form>
+    </body>
+</html>
